@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+    <!-- link para o CSS-->
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--JavaScript-->
+    <script> 
+        function enviar(){
+            alert("Obrigado pela mensagem, logo entraremos em contato!");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Portofólio Pessoal</h1>
+    </header>
+    
+    <nav class="container">
+        <a href="index.html">SOBRE MIM</a>      
+        <a href="contato.html">CONTATO</a>
+        <a href="formacao.html">FORMAÇÃO</a>
+        <a href="hobbie.html">HOBBIES</a>  
+    </nav>
+    <br>
+    
+    <main>
+        <div class="sociais">
+            <br>
+            <a href="https://www.instagram.com/gui.lierme" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/guilherme-r-moreira" target="_blank" class="fa fa-linkedin"></a>
+            <a href="https://www.instagram.com/gui.lierme" target="_blank" class="fa fa-github"></a>
+
+        </div>
+        <form>
+            <table>
+            <tr>
+                <th><label>Nome:</label></th>
+                <th><input type="text" name="nome" id="nome" placeholder="Digite seu nome"></th>
+            </tr>
+            <tr>
+                <th><label>E-Mail:</label></th>
+                <th><input type="email" name="email" id="email" placeholder="Digite seu e-mail"></th>
+            </tr>
+            <table>
+            <tr>
+                <th><label>Digite sua mensagem:</label></th>
+            </tr>
+            <tr>
+                <th><textarea rows="5" cols="40" name="msg" placeholder="Digite sua mensagem"></textarea></th>
+                <th><input type="submit" class="btn btn-primary" onclick="enviar()"></button></th>
+            </tr>
+            </tr>
+            </table>
+            </table>
+        </form>
+    </main>
+    <footer>
+        <p>Guilherme Rodrigues Moreira | 4497039</p>
+    </footer>
+</body>
+</html>
